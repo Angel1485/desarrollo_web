@@ -2,8 +2,8 @@
     class Database {
         private $host = "localhost";
         private $db_name = "desarrollo_web"; // nombre de la base de datos
-        private $username = "angel"; // usuario de la bd
-        private $password = "angel"; //contraseña
+        private $username = "root"; // usuario de la bd
+        private $password = ""; //contraseña
         public $conn;  
 
         public function conectar() {
