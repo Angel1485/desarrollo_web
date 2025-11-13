@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #56ccf2, #2f80ed);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    width: 350px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #2f80ed;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 10px;
+    background-color: #2f80ed;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #56ccf2;
+}
+
+a {
+    color: #2f80ed;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.captcha-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.captcha-container img {
+    border: 1px solid #cdc7c7;
+    border-radius: 5px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+button.refresh {
+    background-color: #56ccf2;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button.refresh:hover {
+    background-color: #2f80ed;
+}
+
+/* Estilos de la tabla lista de usuarios*/
+.containerOne {
+    background-color:  #fff; /* tu color base */
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 800px; /* aumenta el ancho máximo */
+    margin: 40px auto; /* centra horizontalmente */
+    text-align: center;
+}
+
+.containerOne table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff; /* más oscuro para contraste */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.containerOne a:hover {
+    color: #ff8800;
+    text-decoration: underline;
+}
